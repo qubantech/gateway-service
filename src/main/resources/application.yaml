@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    host: ${RABBIT_HOST:localhost}
+
+springdoc:
+  api-docs:
+    path: /gateway-service/v3/api-docs
+  swagger-ui:
+    path: /docs
